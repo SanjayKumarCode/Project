@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    background-color: rgb(2, 2, 33);
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    align-items: center;
+    height: 85px;
+    
+}
+h2{
+    color: white;
+}
+li{
+    color: aliceblue;
+}
