@@ -1,0 +1,30 @@
+/* body{
+    margin: 0;
+   background-image: url("https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=2000");
+    
+} */
+.Form-Validation{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(74, 168, 160);
+    /* width: 100%;
+    height: 100%; */
+
+     /* width: 100%;
+    height: 100px; 
+     background: rgb(100, 76, 89); 
+     margin-top: 0%;
+    position: absolute; */
+  /* left: 400px;
+  top: 50px;  */
+   /* border: 2px solid rgb(110, 153, 168);  */
+   /* border-radius: 35px; 
+   box-shadow: 10px 5px 5px  rgb(46, 12, 12); 
+   justify-content: center; */
+}
+.title{ 
+    font-size: 30px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
