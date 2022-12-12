@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "fullName": "Sanjay",
+      "address": "Utter pradesh",
+      "phoneNumber": "8874369688",
+      "email": "sanjaykumarme40@gmail.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Subham",
+      "address": "Bihar",
+      "phoneNumber": "8845123696",
+      "email": "subham@email.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Nischal",
+      "address": "Noida",
+      "phoneNumber": "8574369682",
+      "email": "nischal@email.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Kamehswar",
+      "address": "Delhi",
+      "phoneNumber": "8574369685",
+      "email": "kameshwar@email.com"
+    },
+    {
+      "id": 5,
+      "fullName": "pooja",
+      "address": "Pune",
+      "phoneNumber": "8574365212",
+      "email": "pooja@email.com"
+    },
+    {
+        "id": 6,
+        "fullName": "khushboo",
+        "address": "Bihar",
+        "phoneNumber": "7436124563",
+        "email": "khu@email.com"
+      },
+      {
+        "id": 7,
+        "fullName": "Bhupati",
+        "address": "Bangalore",
+        "phoneNumber": "4241369685",
+        "email": "bhupati@email.com"
+      },
+      {
+        "id": 8,
+        "fullName": "Rajkumar",
+        "address": "Delhi",
+        "phoneNumber": "8574369685",
+        "email": "rajkumar@email.com"
+      },
+      {
+        "id": 9,
+        "fullName": "Rupesh",
+        "address": "Noida",
+        "phoneNumber": "7436968512",
+        "email": "rupesh@email.com"
+      },
+      {
+        "id": 10,
+        "fullName": "Naveen Rai",
+        "address": "Hydrabad",
+        "phoneNumber": "9678456312",
+        "email": "naveenrai@email.com"
+      }
+  ]
