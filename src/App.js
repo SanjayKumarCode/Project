@@ -7,6 +7,8 @@ import EditableRow from "./Components/EditableRow";
 
 const App = () => {
   const [contacts, setContacts] = useState(data);
+
+  // add data in form for placeholder
   const [addFormData, setAddFormData] = useState({
     fullName: "",
     address: "",
@@ -23,7 +25,8 @@ const App = () => {
 
 
   const [editContactId, setEditContactId] = useState(null);
-// onchange event  for adding 
+
+// onchange event  for adding  this for 
   const handleAddFormChange = (event) => {
     event.preventDefault();
 
@@ -35,6 +38,7 @@ const App = () => {
 
     setAddFormData(newFormData);
   };
+
 // Edit function
   const handleEditFormChange = (event) => {
     event.preventDefault();
@@ -47,7 +51,9 @@ const App = () => {
 
     setEditFormData(newFormData);
   };
+
 // making function for working adding button submit data in form or add data in tables
+// formSubmit function 
   const handleAddFormSubmit = (event) => {
     event.preventDefault();
 // Store update data for making function
@@ -62,6 +68,7 @@ const App = () => {
     const newContacts = [...contacts, newContact];
     setContacts(newContacts);
   };
+
 // Edit  function
   const handleEditFormSubmit = (event) => {
     event.preventDefault();
@@ -75,7 +82,7 @@ const App = () => {
     };
 
     const newContacts = [...contacts];
-// 
+
     const index = contacts.findIndex((contact) => contact.id === editContactId);
 
     newContacts[index] = editedContact;
@@ -83,25 +90,28 @@ const App = () => {
     setContacts(newContacts);
     setEditContactId(null);
   };
+
  // event handler function for edit button
   const handleEditClick = (event, contact) => {
     event.preventDefault();
     setEditContactId(contact.id);
-// 
+
+// formValues  function for fill the value
     const formValues = {
       fullName: contact.fullName,
       address: contact.address,
       phoneNumber: contact.phoneNumber,
       email: contact.email,
     };
-
     setEditFormData(formValues);
   };
 
+// Cancle  function
   const handleCancelClick = () => {
     setEditContactId(null);
   };
 
+// Delete Function
   const handleDeleteClick = (contactId) => {
     const newContacts = [...contacts];
 // findindex is the inbuilt method to find the data
@@ -111,6 +121,7 @@ const App = () => {
 
     setContacts(newContacts);
   };
+
 
   return (
     <div className="app-container">
@@ -129,22 +140,23 @@ const App = () => {
           {/* Map function */}
   {/* contact there work in like props */}
             {contacts.map((contact,index) => (
+
               <>
-              {/* this is Children component uesd in react fragment  */}
+              {/* this is Children component used in react fragment  */}
                 {editContactId === contact.id ? (
-                  <EditableRow
-                    editFormData={editFormData}
-                    handleEditFormChange={handleEditFormChange}
-                    handleCancelClick={handleCancelClick}
-                  />
+
+  <EditableRow
+   editFormData={editFormData}
+   handleEditFormChange={handleEditFormChange}
+   handleCancelClick={handleCancelClick}/>  
                 ) : (
-                  <ReadOnlyRow
-                    contact={contact}
-                    handleEditClick={handleEditClick}
-                    handleDeleteClick={handleDeleteClick}
-                  />
+  <ReadOnlyRow
+   contact={contact}
+   handleEditClick={handleEditClick}
+   handleDeleteClick={handleDeleteClick} />  
                 )}
               </>
+
             ))}
           </tbody>
         </table>
@@ -161,9 +173,9 @@ const App = () => {
   onChange={handleAddFormChange}/>
       
 <input type="text"  name="phoneNumber" required="required" placeholder="Enter a phone number..."
-  onChange={handleAddFormChange} />  
+  onChange={handleAddFormChange}/>  
     
-<input  type="email" name="email" required="required" placeholder="Enter an email..."
+<input  type="text" name="email" required="required" placeholder="Enter an email..."
  onChange={handleAddFormChange}/>        
        
 <button type="submit">Add</button>
