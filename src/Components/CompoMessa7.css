@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+.dancing{
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(190, 54, 54);
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.size123 {
+    width: 300px;
+}

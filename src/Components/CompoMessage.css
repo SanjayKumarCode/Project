@@ -1,0 +1,87 @@
+.top1 {
+    display: flex;
+}
+.red{
+ color: red;
+}
+.display,.display2,.display3{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.opi,.Revision {
+    text-align: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btnTop {
+    gap: 2px;
+    margin: 2px;
+    display: flex;
+    padding-left: 950px;
+}
+.btn1{
+    
+    background-color: rgb(7, 28, 28);
+    color: aliceblue;
+}
+.btn2 {
+background-color: #00ffa2;
+color: aliceblue;
+}
+.btn3 {
+    background-color: red;
+    color: aliceblue;
+}
+.table2{
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    text-align: left;
+    padding-left: 15px;
+    font-weight: 800;
+    background-color: #db96cc;
+}
+.thead-primary {
+    margin-top: 20px;
+}
+
+.btn-bottom {
+    display: flex;
+  
+}
+.btnTop23{
+    display: flex;
+}
+.btn45 {
+    text-align: right;
+}
+.btn-right{
+    gap: 2px;
+    margin: 2px;
+    display: flex;
+    padding-left: 1100px;
+}
+.left-delete {
+    margin: 2px;
+  text-align: left;
+  padding-left: 10px;
+  color: red;
+}
+.delete1 {
+    color: white;
+    background-color: red;
+}
+
+.top1{
+    display: flex;
+    gap: 20px;
+    color: rgb(40, 40, 169);
+    font-weight: 700;
+    padding-left: 20px;
+}
+.Top-page52 {
+    display: flex;
+}

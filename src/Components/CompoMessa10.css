@@ -1,0 +1,105 @@
+.nav{
+    margin-top: 20px;
+    height: 50px;
+    background-color: red;
+    top: 0;
+    padding-left: 10px;
+}
+.right-side{
+    text-align: left;
+    padding-left: 40px;
+}
+.movess{
+    width: 150px;
+}
+h6{
+    font-size: large;
+    margin-top: -28px;
+    margin-right: 1000px ;
+    color: white;
+}
+h4{
+    margin-top: -65px;
+    color: white;
+}
+h3{
+    margin-left: 1000px;
+    margin-top: -40px;
+    color: white;
+}
+.moves{
+    height: 25px;
+    width: 25px;   
+   
+}
+.wel_sanjay{
+    margin-left: 1090px;
+}
+.wel_sanjay1{
+    margin-left: 600px;
+}
+.placed{
+    margin-left: 1400px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+.abb{
+    height: 25px;
+ 
+    width: 25px;
+  margin-right: 1450px;
+    margin-top: 10px;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.btn-display.btn-display{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.Total-rec{
+    text-align: left;
+    padding-left: 10px;
+}
+.btn-change{
+    
+    background-color: hwb(60 2% 74%);
+    color: aliceblue;
+    font-size: 800;
+}
+.btnTop-1234{
+    margin-top: 20px;
+padding-left: 1200px;
+display: flex;
+gap: 2px;
+}
+.box-color{
+    background-color: rgb(247, 250, 255);
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+}
+.btn-right-1 {
+    margin-top: 30%;
+    gap: 2px;
+    margin: 2px;
+    display: flex;
+    padding-left: 1100px;
+}
+.btn23{
+    margin-top: 80%;
+background-color: rgb(14, 51, 18);
+color: white;
+font-weight: 600;
+}
+.left-delete-1{
+    margin-top: 16%;
+}
+.btn245{
+    margin-top: 80%;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(76, 222, 124);
+}
+

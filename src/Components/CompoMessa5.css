@@ -1,0 +1,30 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+.btn-right-5{
+    margin-top: 20px;
+    display: flex;
+    /* text-align: right; */
+    padding-left: 1200px;
+    gap: 5px;
+}
+.btn-serch,.btn-approval {
+    color: white;
+    background-color: rgb(23, 165, 23);
+    font-weight: 600;
+}
+.btn-reset,.btn-reject {
+    color: white;
+    background-color: red;
+    font-weight: 600;
+}
+.btn-right-bottom {
+   margin-top: 20%;
+   display: flex;
+   gap: 5px;
+   padding-left: 1200px;
+}
+.top1{
+    margin-top: 10px;
+}
