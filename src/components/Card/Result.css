@@ -1,0 +1,14 @@
+.First_card{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wallet{
+margin-top: 10rem;
+}
+.wallet1{
+    margin-top: 10rem;
+}

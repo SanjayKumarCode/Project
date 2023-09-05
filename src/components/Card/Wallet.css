@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.top_Card_container{
+    display: flex;
+    gap: 2rem;
+}
+.First_card{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wallet{
+margin-top: 5rem;
+}
+.wallet1{
+    cursor: pointer;
+
+    background-color: transparent;
+            border: 1px solid #000;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+font-size: 16px;
+         
+}
+.wallet1:hover{
+
+border-color: #fff;
+background: hwb(0 27% 72% / 0.307);
+}
+.Lottery{
+    color: #000;
+}
+.Result{
+    color: #000;
+}
